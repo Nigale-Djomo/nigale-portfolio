@@ -16,7 +16,7 @@ const Form = () => {
         <h1 className='contact-heading'> CONTACT </h1>
         <p className='contact-heading2'>Soumettez le formulaire ci-dessous pour entrer en contact avec moi</p>
         <div className="contact">
-          <a href="mailto: siewenigale@gmail.com" className="contact1">\p
+          <a href="mailto: siewenigale@gmail.com" className="contact1">
             <ImMail size={20} style={{ color: "#fff", marginRight: "1rem"}}/>
             <p>siewenigale@gmail.com</p>
           </a>
