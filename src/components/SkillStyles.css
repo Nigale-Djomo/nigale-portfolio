@@ -1,0 +1,118 @@
+.bgc3 {
+    background: linear-gradient(rgb(41, 48, 54), rgb(31, 38, 44), black);
+}
+
+.skill-heading {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(152, 210, 241);
+    text-underline-offset: 8px;
+}
+
+.skill-heading2{
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    padding: 0 0 2rem 0
+}
+
+.skill-container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 0.5rem;
+ 
+    font-size: 1.2rem;
+}
+
+.skill-box {
+    padding: 1rem;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.skill-box:hover > .skill-title::after, .skill-box:hover > .skill-title::before {
+    width: 35px;
+}
+
+.skill-box:hover .img {
+    transform: translateY(-10px);
+}
+
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.skill-title::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    width: 0;
+    height: 6px;
+    border-radius: 0 2px 2px 0;
+    background-color: rgb(152, 210, 241);
+    transition: 0.5s;
+}
+
+.skill-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    width: 0;
+    height: 4px;
+    border-radius: 2px 0 0 2px;
+    background-color: rgb(152, 210, 241);
+    transition: 0.5s;
+}
+
+.img {
+    width: 110px;
+    height: 115px;
+    position: relative;
+    border-radius: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+/* 
+.img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 200px;
+    background: rgba(100, 100, 100, 0.5);
+    border-radius: 45px 0 0 45px;
+} */
+
+.skill-icon {
+    width: 80px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 990px) {
+    .skill-container {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 1rem 50px;
+    }  
+}
+
+@media screen and (max-width: 650px) {
+    .skill-container {
+        grid-template-columns: repeat(2, 1fr);
+    }  
+}

@@ -1,0 +1,42 @@
+.bgc1 {
+    background: linear-gradient(rgb(31, 38, 44),rgb(41, 48, 54), black);
+}
+.about-heading {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    margin-bottom: 2rem;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(152, 210, 241);
+    text-underline-offset: 8px;
+}
+
+.about-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about-container .left {
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 700px;
+}
+
+.about-container .right {
+    max-width: 350px;
+}
+
+.right .imgp {
+    max-width: 90%;
+    border: 1px solid #333;
+}
+
+.p2 {
+    margin: 3rem 0;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}

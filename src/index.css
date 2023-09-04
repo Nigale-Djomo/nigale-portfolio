@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Manrope:wght@500&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Manrope:wght@500&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+  --primary-color: rgb(116, 199, 255);
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background: #000;
+}
+
+h1,
+h2,
+h4,
+p,
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* a:hover {
+  padding-bottom: 12px;
+  border-bottom: 3px solid var(--primary-color);
+} */
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(152, 210, 241);
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.btn-light {
+  background: transparent;
+  color: #fff;
+  margin: 1rem;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: 0.3s;
+}
+
+.her{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
