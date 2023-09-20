@@ -22,7 +22,7 @@ const HeroImg = () => {
             </div>
                 <h1>Data Analyst.</h1>
             <div className="bt">
-              <a href="/cv Nini.pdf" className="btn"> télécharger CV</a>
+              <a href="/cv_Nigale_Final.pdf" className="btn"> télécharger CV</a>
               <Link to="contact" className="btn btn-light"> Contact Info</Link>
             </div>
             <div className="Im">
