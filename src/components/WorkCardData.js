@@ -1,5 +1,5 @@
-import img1 from "../images/img1.jpg"
-import img2 from "../images/img2.jpg"
+import img1 from "../images/img1.JPG"
+import img2 from "../images/img2.png"
 
 
 const ProjectCardData = [

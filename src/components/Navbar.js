@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
         <Link to="/" spy={true} smooth={true} offset={-100} duration={500}>
-            <h1>Rivelle Djomo</h1>
+            <h1>Rivelle DJOMO</h1>
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
@@ -33,14 +33,17 @@ const Navbar = () => {
             <li className="nav-item">
                 <Link to="about"  spy={true} smooth={true} offset={-100} duration={500}>A Propos</Link>
             </li>
-            <li className="nav-item">
+            {/*<li className="nav-item">
                 <Link to="project"  spy={true} smooth={true} offset={-100} duration={500}>Projets</Link>
+            </li>*/}
+            <li className="nav-item">
+                <Link to="certificat"  spy={true} smooth={true} offset={-80} duration={500}>Certifications</Link>
             </li>
             <li className="nav-item">
                 <Link to="skills"  spy={true} smooth={true} offset={-100} duration={500}>Competences</Link>
             </li>
             <li className="nav-item">
-                <Link to="contact"  spy={true} smooth={true} offset={-150} duration={500}>Contact</Link>
+                <Link to="contact"  spy={true} smooth={true} offset={-100} duration={500}>Contact</Link>
             </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>

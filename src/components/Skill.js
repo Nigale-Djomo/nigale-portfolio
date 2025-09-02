@@ -8,9 +8,9 @@ const Skill = (props) => {
         <div className='skill-box'>
             <div className='skill-title'>
                 <div className='img'>
-                    <img src={props.img} alt="powerbi" className="skill-icon"/>
+                    <img src={props.img} alt="PowerPlatform" className="skill-icon"/>
                 </div>
-                <p>{props.titre}</p>
+                <p className="skill-center-justify skill-down-text">{props.titre}</p>
             </div>
         </div>
     </div>

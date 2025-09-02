@@ -13,8 +13,12 @@ const AboutContent = () => {
             <img src={photo} alt="img" className="imgp"/>
           </div>  
           <div className="left">
-              <p>Je suis une Analyste de données avec une passion pour les bonnes pratiques de développement. Mon expertise technique s'étend sur power BI,  je possède une certification <strong>Microsoft Power BI Data Analyst</strong> ce qui m'a permis de contribuer à la réalisation de plusieurs projets. Je suis passionné par l'exploitation des données pour en extraire des informations et des insights précieux. En tant qu'analyste de données, j'ai acquis une expertise dans la collecte, la transformation et l'analyse de données pour aider les entreprises à prendre des décisions stratégiques éclairées.</p>
-              <p className="p2"> J'ai un fort intérêt pour la résolution de problèmes, les défis analytiques et l'exploration de nouvelles technologies. J'aime également partager mes connaissances en organisant des ateliers et en contribuant à des communautés en ligne axées sur les données. Travailler en équipe est essentiel pour moi, car je crois en la valeur de la collaboration et du partage de connaissances pour atteindre des résultats exceptionnels.</p>
+            <p>
+              Passionné par la transformation digitale, je conçois des solutions data & SI qui transforment les process en leviers de performance. Mon expertise couvre la Power Platform — <strong>Power BI</strong> (tableaux de bord décisionnels), <strong>Power Automate</strong> (flux d’automatisation) et <strong>Power Apps</strong> (apps métiers) — ainsi que l’administration et le support d’infrastructures : <strong>WHMCS</strong>, <strong>Virtualizor</strong>, <strong>cPanel</strong>, gestion des <strong>VPS</strong>, <strong>DNS</strong>, noms de domaine, et serveurs web (Apache, Nginx). J’intègre aussi l’IA (<strong>Copilot Agent</strong>, <strong>AI Builder</strong>) pour éliminer les tâches répétitives et accélérer la productivité.
+            </p>
+            <p>
+              Mon approche est orientée résultats : comprendre vos besoins, sécuriser l’existant, automatiser ce qui peut l’être et rendre la donnée <em>actionnable</em>. J’accompagne PME et équipes métiers de bout en bout — du diagnostic à la mise en production — pour livrer des solutions fiables, élégantes et mesurables. Si votre objectif est d’exploiter pleinement vos systèmes et vos données pour gagner en vitesse, clarté et compétitivité, nous sommes déjà alignés.
+            </p>
           </div>
         </div>
     </div>

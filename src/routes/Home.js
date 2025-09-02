@@ -4,6 +4,7 @@ import HeroImg from '../components/HeroImg';
 import About from '../routes/About'
 import Project from '../routes/Project';
 import Skills from '../routes/Skills';
+import Certificat from '../routes/Certificat';
 import Contact from '../routes/Contact';
 
 const Home = () => {
@@ -12,7 +13,8 @@ const Home = () => {
       <Navbar />
       <HeroImg/>
       <About/>
-      <Project/>
+      {/*<Project/>*/}
+      <Certificat/>
       <Skills/>
       <Contact/>
     </div>

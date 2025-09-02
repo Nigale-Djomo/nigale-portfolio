@@ -20,9 +20,9 @@ const HeroImg = () => {
                 <h2>👋</h2>
                 <h2>HI, I'M Nigale</h2>
             </div>
-                <h1>Data Analyst.</h1>
+                <h1>Consultante IT.</h1>
             <div className="bt">
-              <a href="/cv_Nigale_Final.pdf" className="btn"> télécharger CV</a>
+              <a href="/cv_Nigale_Final.pdf" target="_blank" rel="noopener noreferrer" className="btn"> télécharger CV</a>
               <Link to="contact" className="btn btn-light"> Contact Info</Link>
             </div>
             <div className="Im">

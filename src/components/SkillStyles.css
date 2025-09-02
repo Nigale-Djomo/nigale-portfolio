@@ -104,6 +104,21 @@
     z-index: 2;
 }
 
+.skill-center-justify {
+  text-align: center;     /* Centre sur une ligne */
+}
+
+.skill-center-justify p {
+  display: inline-block;
+  text-align: justify;    /* Justifie si ça passe à la ligne */
+}
+
+.skill-down-text {
+  position: relative;
+  top: 10px; /* décale de 10px vers le bas */
+}
+
+
 @media screen and (max-width: 990px) {
     .skill-container {
         grid-template-columns: repeat(3, 1fr);
