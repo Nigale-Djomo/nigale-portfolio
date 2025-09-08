@@ -26,10 +26,10 @@ const HeroImg = () => {
               <Link to="contact" className="btn btn-light"> Contact Info</Link>
             </div>
             <div className="Im">
-              <a href="https://www.linkedin.com/in/rivelle-djomo-21a622219/">
+              <a href="https://www.linkedin.com/in/rivelle-djomo-21a622219/" target="_blank" rel="noopener noreferrer">
                 <ImLinkedin size={45} style={{ color: "rgb(36, 166, 252)", padding: "3px", backgroundColor: "#fff", borderRadius: "9999px", cursor: "pointer"}}/>
               </a>
-              <a href="https://github.com/">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
                 <ImGithub size={50} style={{ color: "#fff", padding: "3px", backgroundColor: "black", marginLeft: "1rem", cursor: "pointer"}}/>
               </a>
             </div>
